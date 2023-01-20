@@ -50,22 +50,25 @@ int main() {
         }
         if (result[i] == 'I' && result[i + 1] == 'P' && result[i + 2] == 'v' && result[i + 3] == '4') {
             char *c = &result[i+36];
-            char *ip = malloc(14 * sizeof(char));
-            for (int j = 0; j < 14; ++j) {
+            char *ip = malloc(13 * sizeof(char));
+            for (int j = 0; j < 13; ++j) {
                 ip[j] = *c++;
             }
+            ip[12] = '\0';
             ips[ipCount] = ip;
             ipCount++;
         }
     }
-    char* finallyIp =chooseIP(ipCount,ips);
+    char* finallyIp = chooseIP(ipCount,ips);
     printf("\nOK!You choose:%s.Now please a wait...",finallyIp);
     char *httpProxySet = "git config --global http.proxy ";
     char buf[1000],buf1[5];
     strcat(buf,httpProxySet);
     strcat(buf,finallyIp);
     strcat(buf,":");
-    strcat(buf, itoa(port,buf1,10));
+    itoa(port,buf1,10);
+    strcat(buf, buf1);
+    printf("%s\n",buf);
     system(buf);
     memset(buf,'\0', sizeof(buf));
     memset(buf,'\0', sizeof(buf1));
@@ -73,7 +76,9 @@ int main() {
     strcat(buf,httpsProxySet);
     strcat(buf,finallyIp);
     strcat(buf,":");
-    strcat(buf, itoa(port,buf1,10));
+    itoa(port,buf1,10);
+    strcat(buf, buf1);
+    printf("%s\n",buf);
     system(buf);
     printf("\nProxy set is complete! Thank you for using, bye!");
     system("pause");

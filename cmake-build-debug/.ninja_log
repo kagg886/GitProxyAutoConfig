@@ -1,11 +1,14 @@
 # ninja log v5
-2	849	6958411396154047	CMakeFiles/GitProxyAutoConfig.dir/main.c.obj	28943ce930db7048
-849	947	6958411397121791	GitProxyAutoConfig.exe	6dbced71212f4523
-2	612	6958413920392790	CMakeFiles/GitProxyAutoConfig.dir/main.c.obj	28943ce930db7048
-612	712	6958413921395150	GitProxyAutoConfig.exe	6dbced71212f4523
-2	694	6958415800486190	CMakeFiles/GitProxyAutoConfig.dir/main.c.obj	28943ce930db7048
-695	796	6958415801461722	GitProxyAutoConfig.exe	6dbced71212f4523
-3	746	6958786233996764	CMakeFiles/GitProxyAutoConfig.dir/main.c.obj	28943ce930db7048
-746	936	6958786235870288	GitProxyAutoConfig.exe	6dbced71212f4523
-2	721	6958786395792252	CMakeFiles/GitProxyAutoConfig.dir/main.c.obj	28943ce930db7048
-735	868	6958786397217676	GitProxyAutoConfig.exe	6dbced71212f4523
+2	727	6958801899493117	CMakeFiles/GitProxyAutoConfig.dir/main.c.obj	28943ce930db7048
+727	860	6958801900821656	GitProxyAutoConfig.exe	6dbced71212f4523
+5	155	6958801915798412	build.ninja	da1732b4ea474f3e
+2	698	6958802410270249	CMakeFiles/GitProxyAutoConfig.dir/main.c.obj	28943ce930db7048
+698	811	6958802411362036	GitProxyAutoConfig.exe	6dbced71212f4523
+2	772	6958802892763955	CMakeFiles/GitProxyAutoConfig.dir/main.c.obj	28943ce930db7048
+772	907	6958802894073911	GitProxyAutoConfig.exe	6dbced71212f4523
+3	707	6958803310870934	CMakeFiles/GitProxyAutoConfig.dir/main.c.obj	28943ce930db7048
+708	837	6958803312115110	GitProxyAutoConfig.exe	6dbced71212f4523
+3	609	6958803430660454	CMakeFiles/GitProxyAutoConfig.dir/main.c.obj	28943ce930db7048
+609	728	6958803431830182	GitProxyAutoConfig.exe	6dbced71212f4523
+3	689	6958803935203842	CMakeFiles/GitProxyAutoConfig.dir/main.c.obj	28943ce930db7048
+689	802	6958803936302240	GitProxyAutoConfig.exe	6dbced71212f4523

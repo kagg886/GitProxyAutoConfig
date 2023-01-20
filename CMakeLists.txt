@@ -4,4 +4,3 @@ project(GitProxyAutoConfig C)
 set(CMAKE_C_STANDARD 99)
 
 add_executable(GitProxyAutoConfig main.c)
-add_executable()
